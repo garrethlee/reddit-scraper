@@ -11,7 +11,7 @@ from helpers import build_query, extract_data_from_comments, store_data_to_csv, 
 if __name__ == "__main__":
     
     # Get intervals to filter for posts within a certain time frame
-    intervals = get_intervals()
+    intervals = get_intervals(DAYS_PER_INTERVAL)
 
     for endpoint in ENDPOINTS:
         for keyword in KEYWORDS:

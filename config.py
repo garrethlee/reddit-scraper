@@ -1,5 +1,7 @@
 MIN_ENTRIES_PER_QUERY = 150
 QUERY_SIZE = 25
+DAYS_PER_INTERVAL = 7
+COVID_START_DATE = "2020-03-14"
 
 DATA_DIR = "./data"
 BASE_URL = "https://api.pushshift.io"

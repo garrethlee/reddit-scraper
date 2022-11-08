@@ -50,7 +50,7 @@ def store_data_to_csv(query_data, dir = DATA_DIR, filename = "data.csv"):
         df.to_csv(filepath, header = False, mode = 'a', index = False)
 
 
-def get_intervals(days = 7, start_date = "2020-03-14"):
+def get_intervals(days = DAYS_PER_INTERVAL, start_date = COVID_START_DATE):
     """Set intervals for queries based on `days` argument"""
 
     intervals = []
