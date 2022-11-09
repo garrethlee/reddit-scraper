@@ -27,7 +27,7 @@ def extract_data_from_comments(content):
     # Data is a list of dictionaries (entries)
     for entry in content:
         results["comment_id"].append(entry["id"])
-        results["author_id"].append(entry["author_fullname"])
+        results["author_id"].append(entry.get("author_fullname", "None"))
         results["author"].append(entry["author"])
         results["is_poster"].append(entry["is_submitter"])
         results["score"].append(entry["score"])
