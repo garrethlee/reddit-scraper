@@ -16,9 +16,9 @@ KEYWORDS = [
 
 # MODIFY THIS TO ADD / REMOVE SUBREDDITS TO SCRAPE
 SUBREDDITS = [
-    "antiwork", "resignationporn", "legaladvice",
-    "advice", "lifeadvice", "careerguidance", "workreform",
-    "overemployed"
+    "antiwork", "resignationporn", "legaladvice", "jobs",
+    "advice", "cscareerquestions", "workreform",
+    "overemployed", "personalfinance"
 ]
 
 
