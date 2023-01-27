@@ -8,7 +8,8 @@ BASE_URL = "https://api.pushshift.io"
 
 # MODIFY THIS TO CHANGE THE KEYWORDS TO SCRAPE
 KEYWORDS = [
-    "quit work", "quit my job", 
+    "quit", "quit my job", 
+    "was let go",
     "resign", "resign my job", "resignation"
     "laid off", "layoff", 
     "fired"
@@ -17,7 +18,7 @@ KEYWORDS = [
 # MODIFY THIS TO ADD / REMOVE SUBREDDITS TO SCRAPE
 SUBREDDITS = [
     "antiwork", "resignationporn", "legaladvice", "jobs",
-    "advice", "cscareerquestions", "workreform",
+    "advice", "cscareerquestions", "workreform", "technology",
     "overemployed", "personalfinance"
 ]
 
